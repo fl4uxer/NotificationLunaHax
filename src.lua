@@ -16,7 +16,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	Notification.BackgroundTransparency = 0.400
 	Notification.BorderSizePixel = 0
 	Notification.Position = UDim2.new(1, 5, 0, 75)
-	Notification.Size = UDim2.new(0, 600, 0, 70)
+	Notification.Size = UDim2.new(0, 100, 0, 70)
 
 	Line.Name = "Line"
 	Line.Parent = Notification
